@@ -1,11 +1,16 @@
 # Technical & SEO Checklist
 
-Ensure your site is built correctly and can be found.
+Ensure your site is built correctly, performs well, and is discoverable.
 
-- [ ] **Valid Code**: Check your HTML and CSS for errors using the W3C Validator.
-- [ ] **No Broken Links**: Click every link to make sure it goes where it should.
-- [ ] **Meta Tags**: Every page needs a unique `<title>` and `<meta name="description">`.
-- [ ] **Open Graph**: Add Open Graph tags so your link looks good when shared on social media (LinkedIn, Twitter, etc.).
-- [ ] **Image Optimization**: Compress images so they load quickly.
-- [ ] **Analytics**: Verify that your web analytics script is firing and recording visits.
-- [ ] **GitHub Pages**: Ensure the live site URL works and there are no deployment errors.
+### Core Technical
+- [ ] **Valid Code**: HTML and CSS must pass validation (W3C or `npm run lint`).
+- [ ] **No Broken Links**: All navigation and external links must work.
+- [ ] **GitHub Pages**: Site must be deployed and accessible via a public URL.
+
+### SEO Requirements (Search Engine Optimization)
+- [ ] **Unique Titles**: Every page must have a unique `<title>` tag describing its content (e.g., "Home - John Doe Portfolio").
+- [ ] **Meta Descriptions**: Every page must have a `<meta name="description" content="...">` tag (150-160 characters) summarizing the page.
+- [ ] **Semantic Structure**: Use correct heading hierarchy (`h1` -> `h2` -> `h3`). Only one `h1` per page.
+- [ ] **Image Alt Text**: All images must have descriptive `alt` attributes for accessibility and SEO.
+- [ ] **Open Graph**: Include basic Open Graph tags (`og:title`, `og:description`, `og:image`) for social media sharing.
+- [ ] **Lighthouse Score**: Achieve a score of 100 on the Lighthouse SEO audit.
